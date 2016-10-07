@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body, html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Myriad Pro', sans-serif; }
+
+.main {
+  background-image: url("/assets/bg.png");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.content-wrapper {
+  width: 50%;
+  display: -ms-flexbox;
+  display: flex;
+  height: 75%; }
+
+.pill {
+  height: 100%;
+  width: 35%;
+  background-image: url("/assets/pill.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.pill-text-wrap {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 65%;
+  height: 100%;
+  color: #fff;
+  text-align: center; }
+
+.pill-text {
+  /*width: 65%;
+			height: 100%;
+			color: #fff;
+			text-align: center;*/ }
+
+.pill-text h1 {
+  font-size: 72px;
+  font-weight: normal; }
+
+.pill-text h3 {
+  font-size: 40px;
+  font-weight: normal; }
+
+.pill-text h4 {
+  font-size: 20px;
+  color: #333;
+  font-weight: normal; }
+
+.pill-text h5 {
+  font-size: 16px;
+  color: #333;
+  padding: 0 2em;
+  font-weight: normal; }
+
+.pill-text h3 span {
+  font-size: 35px; }
+
+.form {
+  padding: 1em;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.form input::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #333; }
+
+.form input::-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #333;
+  opacity: 1; }
+
+.form input::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #333;
+  opacity: 1; }
+
+.form input::-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #333; }
+
+.form input {
+  background: transparent;
+  border: 1px solid #fff;
+  border-right: none;
+  width: 80%;
+  outline: none;
+  color: #fff;
+  padding: .75em; }
+
+.submit-button {
+  background: transparent;
+  background-image: url("/assets/btn.png");
+  width: 37.5px;
+  height: 42px;
+  background-size: contain;
+  border: none;
+  outline: none; }
+
+.submit-button:hover {
+  cursor: pointer; }
+
+.alert {
+  margin-bottom: 0px !important;
+  text-align: center; }
